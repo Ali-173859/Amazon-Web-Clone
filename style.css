@@ -6,8 +6,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(214, 216, 216);
-
 }
+
+
 /* navbar  */
 
 .navbar{
@@ -410,9 +411,11 @@ footer{
         .a-foot:hover{
             text-decoration: underline;
         }
-     
-
+   
 }
+
+
+
 
     }
 
@@ -455,13 +458,115 @@ footer{
     width: 100%;
  margin: auto; 
 
-
-
-
-
-
-
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .navbar{
+        height: 110px;
+    }
+
+    .logo{
+        margin-top: -3%;
+    }
+    
+    .item{
+        display: none;
+    }
+    .search-container{
+        width: 420px;
+        margin-top: 60px ;
+        margin-left: -18.9%;    
+    }
+    .search-select{
+        display: none;
+    }   
+
+    .language-container{
+        display: none;
+
+    }
+
+    .return-order-container{
+        display: none;
+    }
+
+    .login-container{
+        margin-left: -25%;
+        margin-top: -6%;
+    }
+
+    .cart-container{
+        margin-top: -5%;
+    }
+    .minibar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        ul{
+            margin-left: -14%;
+            
+            flex-wrap: wrap;
+        }
+    }
+
+
+    .slides-img{
+        height: 271px;
+        width: 425px;
+        margin-top: 31.8%;
+        margin-left:  50%;
+    }
+}
+
+
+@media screen and (max-width:425px){
+
+    footer{
+        margin-top: 840%;
+        height: 60px;
+        width: 425px;
+    }
+    
+    .footdata-1{
+        margin-left: 20%;
+        line-height: 28px;
+    }
+
+    .foot-info{
+        position: absolute;
+        top: 811%;
+        background-color: #131A22;
+      
+    }
+
+    .foot-info img{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+
+    .final-foot .img2{
+        display: none;
+    }
+
+
+
+    .final-foot{
+        height: 30px;
+    }
+}
 
